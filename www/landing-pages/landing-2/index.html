@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/png" href="/favicon.png"><!-- Primary Meta Tags --><title>Landing Page #2 | Astro Odyssey Theme</title><meta name="title" content="Landing Page #2 | Astro Odyssey Theme"><meta name="description" content="Landing Page #2 | Astro Odyssey Theme"><link rel="canonical" href="https://odyssey-theme.sapling.supply/landing-pages/landing-2/"><!-- Generator --><meta name="generator" content="Astro v5.3.0"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://odyssey-theme.sapling.supply/landing-pages/landing-2/"><meta property="og:title" content="Landing Page #2 | Astro Odyssey Theme"><meta property="og:description" content="Landing Page #2 | Astro Odyssey Theme"><meta property="og:image" content="https://odyssey-theme.sapling.supply/social.png"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://odyssey-theme.sapling.supply/landing-pages/landing-2/"><meta property="twitter:title" content="Landing Page #2 | Astro Odyssey Theme"><meta property="twitter:description" content="Landing Page #2 | Astro Odyssey Theme"><meta property="twitter:image" content="https://odyssey-theme.sapling.supply/social.png"><!-- For Demonstration of the themes --><!-- This is a simple script to check if there is a theme value in local storage. That way the theme stays with you between pages --><script>
+	const doc = document.firstElementChild;
+	const localStorageTheme = localStorage.getItem('theme');
+
+	if (localStorageTheme !== null) {
+		doc.setAttribute('data-theme', localStorageTheme);
+	}
+</script><!-- Google Analytics --><link rel="stylesheet" href="/_astro/consider-hybrid-work.IIGE3aY_.css">
+<style>form[data-astro-cid-glhcn673]{display:grid;grid-template-columns:1fr;gap:1rem}.full-page-split__wrapper[data-astro-cid-xeyyrucl]{display:grid;grid-template-columns:6fr 4fr;grid-auto-columns:1fr;min-height:100vh}.full-page-split__image-section[data-astro-cid-xeyyrucl]{position:relative}.full-page-split__image-section[data-astro-cid-xeyyrucl] img{width:100%;height:100vh;object-fit:cover}.full-page-split__logo[data-astro-cid-xeyyrucl]{background-color:var(--theme-surface-1);color:(--theme-on-surface-1);padding:.5rem 1rem;border-radius:var(--theme-shape-radius);top:1rem;left:1rem;position:absolute;z-index:1}.full-page-split__logo[data-astro-cid-xeyyrucl] a[data-astro-cid-xeyyrucl]{text-decoration:none}.full-page-split__content-section[data-astro-cid-xeyyrucl]{display:flex;flex-direction:column;justify-content:center}.full-page-split__content-container[data-astro-cid-xeyyrucl]{margin:1rem;padding:2rem;background-color:var(--theme-surface-1);color:var(--theme-on-surface-1);border-radius:var(--theme-shape-radius)}.full-page-split__content-container[data-astro-cid-xeyyrucl] h1[data-astro-cid-xeyyrucl]{font-size:var(--font-size-xl)}@media (max-width: 768px){.full-page-split__wrapper[data-astro-cid-xeyyrucl]{grid-template-columns:1fr;grid-template-rows:30vh auto}.full-page-split__image-section[data-astro-cid-xeyyrucl] img{max-height:30vh}}
+</style>
+<link rel="stylesheet" href="/_astro/contact.B7VGShmx.css"><script>/** @license Copyright 2020 Google LLC (BSD-3-Clause) */
+/** Bundled JS generated from "@astrojs/lit/client-shim.js" */
+var N = Object.defineProperty;
+var i = (t, n) => () => (t && (n = t((t = 0))), n);
+var b = (t, n) => {
+	for (var a in n) N(t, a, { get: n[a], enumerable: !0 });
+};
+function s() {
+	if (d === void 0) {
+		let t = document.createElement('div');
+		(t.innerHTML = '<div><template shadowrootmode="open"></template></div>'),
+			(d = !!t.firstElementChild.shadowRoot);
+	}
+	return d;
+}
+var d,
+	m = i(() => {});
+var p,
+	c,
+	f,
+	u = i(() => {
+		(p = (t) => t.parentElement === null),
+			(c = (t) => t.tagName === 'TEMPLATE'),
+			(f = (t) => t.nodeType === Node.ELEMENT_NODE);
+	});
+var h,
+	E = i(() => {
+		m();
+		u();
+		h = (t) => {
+			var n;
+			if (s()) return;
+			let a = [],
+				e = t.firstElementChild;
+			for (; e !== t && e !== null; )
+				if (c(e)) a.push(e), (e = e.content);
+				else if (e.firstElementChild !== null) e = e.firstElementChild;
+				else if (f(e) && e.nextElementSibling !== null) e = e.nextElementSibling;
+				else {
+					let o;
+					for (; e !== t && e !== null; )
+						if (p(e)) {
+							o = a.pop();
+							let r = o.parentElement,
+								l = o.getAttribute('shadowroot');
+							if (((e = o), l === 'open' || l === 'closed')) {
+								let y = o.hasAttribute('shadowrootdelegatesfocus');
+								try {
+									r.attachShadow({ mode: l, delegatesFocus: y }).append(o.content);
+								} catch {}
+							} else o = void 0;
+						} else {
+							let r = e.nextElementSibling;
+							if (r != null) {
+								(e = r), o !== void 0 && o.parentElement.removeChild(o);
+								break;
+							}
+							let l =
+								(n = e.parentElement) === null || n === void 0 ? void 0 : n.nextElementSibling;
+							if (l != null) {
+								(e = l), o !== void 0 && o.parentElement.removeChild(o);
+								break;
+							}
+							(e = e.parentElement), o !== void 0 && (o.parentElement.removeChild(o), (o = void 0));
+						}
+				}
+		};
+	});
+var w = i(() => {
+	E();
+});
+var v = {};
+b(v, { hasNativeDeclarativeShadowRoots: () => s, hydrateShadowRoots: () => h });
+var S = i(() => {
+	m();
+	w();
+});
+async function g() {
+	let { hydrateShadowRoots: t } = await Promise.resolve().then(() => (S(), v));
+	window.addEventListener('DOMContentLoaded', () => t(document.body), { once: true });
+}
+var x = Document.parseHTMLUnsafe(
+	'<p><template shadowrootmode="open"></template></p>'
+).querySelector('p');
+(!x || !x.shadowRoot) && g();
+</script></head> <body> <a href="#content" data-astro-cid-c7ibh6fj>Skip to main content</a>    <main id="content">  <div class="full-page-split__wrapper" data-astro-cid-xeyyrucl> <section class="full-page-split__image-section" data-astro-cid-xeyyrucl> <div class="full-page-split__logo" data-astro-cid-xeyyrucl> <a href="/" data-astro-cid-xeyyrucl> <p class="odyssey-logo" data-astro-cid-tvrurpns>🎮 SuperPony Games 🎠</p>  </a> </div> <picture data-astro-cid-xeyyrucl> <img src="/assets/images/home/classic-hero.jpg" alt="Astro Odyssey" class="full-page-split__image" data-astro-cid-xeyyrucl> </picture> </section> <section class="full-page-split__content-section" data-astro-cid-xeyyrucl> <div class="full-page-split__content-container" data-astro-cid-xeyyrucl> <h1 data-astro-cid-xeyyrucl>Contact Us For a Free Consultation</h1> <p data-astro-cid-xeyyrucl>Fill out the form below to schedule a free consultation on your business' website needs.</p> <form name="Contact Form" method="POST" action="/contact-thank-you" data-astro-cid-glhcn673> <div class="form-field__container" data-astro-cid-zfxatqdi> <label for="First Name" data-astro-cid-zfxatqdi>First Name</label> <input type="text" name="First Name" placeholder="John" data-astro-cid-zfxatqdi> </div>  <div class="form-field__container" data-astro-cid-zfxatqdi> <label for="Last Name" data-astro-cid-zfxatqdi>Last Name</label> <input type="text" name="Last Name" placeholder="Doe" data-astro-cid-zfxatqdi> </div>  <div class="form-field__container" data-astro-cid-zfxatqdi> <label for="Email" data-astro-cid-zfxatqdi>Email</label> <input type="email" name="Email" placeholder="hello@example.com" data-astro-cid-zfxatqdi> </div>  <button class="btn undefined undefined undefined" target rel data-astro-cid-5sjhwv6c="true"> Submit
+  <span class="custom-icon__span" data-astro-cid-5sjhwv6c> <svg width="1em" height="1em" viewBox="0 0 24 24" data-astro-cid-glhcn673="true" data-icon="ic:baseline-chevron-right">  <symbol id="ai:ic:baseline-chevron-right"><path fill="currentColor" d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"/></symbol><use  xlink:href="#ai:ic:baseline-chevron-right"></use>  </svg> </span></button>  </form>  </div> </section> </div>  </main>  </body></html> 
